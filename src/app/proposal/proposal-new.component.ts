@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Propsal } from '/proposal';
+import { Proposal } from './proposal';
 
 @Component ({
   moduleId: module.id,
