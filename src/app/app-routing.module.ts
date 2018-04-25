@@ -11,7 +11,9 @@ const routes: Routes = [
   { path: 'home', component: HomepageComponent },
   { path: 'documents', component: DocumentsComponent },
   { path: 'proposals', component: ProposalListComponent },
-  { path: 'proposals/new', component: ProposalNewComponent },
+  { path: 'proposals/new', component: ProposalNewComponent },  
+  { path: 'proposal/:id', component: ProposalShowComponent },
+
 ]
 
 @NgModule({
