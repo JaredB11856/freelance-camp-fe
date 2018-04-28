@@ -29,5 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##Shortcuts
 PS1='\u:\W\$ '
+PS1='\W\$ '
 
 ng serve --open
